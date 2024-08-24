@@ -275,6 +275,8 @@ const TokenCreationForm = () => {
           />
         </div>
 
+
+
         <div className="mb-6 flex justify-between items-center">
           <label className="block text-sm font-semibold mb-2" htmlFor="supply">
             * Supply:
@@ -305,7 +307,7 @@ const TokenCreationForm = () => {
 
         <div className="mb-6">
           <label className="block text-sm font-semibold mb-2" htmlFor="image">
-            * Image:
+            * Image: 
           </label>
           <div className="flex items-center">
             <div className="w-1/3 h-36 bg-[#2e2e2e] border border-gray-600 rounded-md flex items-center justify-center">
@@ -319,6 +321,8 @@ const TokenCreationForm = () => {
                 <span className="text-gray-400">No image uploaded</span>
               )}
             </div>
+
+
             <input
               id="image"
               type="file"
